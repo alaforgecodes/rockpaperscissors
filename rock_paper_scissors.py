@@ -185,13 +185,13 @@ class Game:
 
     #Method that starts the Rock, Paper, Scissors tournament
     def play_game(self):
-        player_name = HumanPlayer.name(self)
-        opponent_name = OpponentChoice.name(self.p2)
-        Game.game_intro(self, player_name, opponent_name)       
+        player_name = self.p1.name()
+        opponent_name = self.p2.name()
+        self.game_intro(player_name, opponent_name)       
         for round in range(1, 4):
             text_pacing(f"Round {round}:")
             self.play_round(player_name, opponent_name)
-        Game.end_game(self, player_name, opponent_name)
+        self.end_game(player_name, opponent_name)
 
 #Footer
 if __name__ == '__main__':
