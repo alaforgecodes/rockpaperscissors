@@ -1,7 +1,7 @@
 # rockpaperscissors
 
-This program is designed to have you play a game of rock, paper, scissors against one of four potential opponents. 
-Each opponent has a different strategy. If you can figure out your opponent's strategy, you can improve your chances 
+This program is designed to have players engage in a game of rock, paper, scissors against one of four potential opponents. 
+Each opponent has a different strategy. If the player can figure out their opponent's strategy, they can improve their chances 
 of winning. 
 
 # Background
